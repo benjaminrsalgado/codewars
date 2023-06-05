@@ -1,5 +1,5 @@
 let userName = 'Ta',
-age = 32,
+age = 42,
 luckyNumber = 13,
 albums = 10
 
@@ -17,5 +17,5 @@ if (userName === 'Taylor' ){
 
 // i am doing a ternary operation just por practicing 
 
-//userName ? console.log('your own kid');
-//age ? console.log('')
+userName === 'Ta' ? console.log('your own kid'): console.log ('i dont know you');
+age  <= 32 ? console.log('hi buddy') : console.log ( 'you are so old');

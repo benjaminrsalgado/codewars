@@ -6,4 +6,4 @@ this color: color1
 this type: type1
 this age: age1
 
-let bear = new Animals ('70cm','brown', 'Exotic', '10 years' )
+let bear = new Animals ('70cm','brown','Exotic','10 years' )

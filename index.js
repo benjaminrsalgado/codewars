@@ -3,12 +3,12 @@
 // Esta bien hacerlo cuando vas a hacer varios pero sin methods (behaviors)
 
 const circle = {
-    radius: 1,
-    location: {
+    radius: 1, //this is properties
+    location: { //this is a property
     X: 1,
     y: 1
     },
-    draw: function() {
+    draw: function() { //este es un metodo
     console.log('draw');
     }
 };
@@ -34,4 +34,11 @@ function createCircle(radius) {
 
 // Constructor Function
 
-Function 
+function Circle (radius){
+    this.radius = radius;
+    this.draw = function() {
+        console.log('draw');
+    }
+}
+const another = new Circle(1);
+

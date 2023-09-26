@@ -1,3 +1,5 @@
+// This is a file to practice objects in JS, related to 100devs, and the video that i have been seen about the OOP in JS
+
 // Creating an object, object literal
 //This is a simple way to define an object 
 // Esta bien hacerlo cuando vas a hacer varios pero sin methods (behaviors)
@@ -40,5 +42,11 @@ function Circle (radius){
         console.log('draw');
     }
 }
+Circle.call({}, 1) //sirve para llamar a una función
+Circle.apply({}, [1, 2, 3]) 
 const another = new Circle(1);
 
+let x= 10;
+ley y = x;
+
+x = 20;

@@ -6,3 +6,9 @@ this color: color1
 this model: age1
 
 let MomsCar = new Cars ('250cm','brown', 'Tesla210' )
+
+// enjoy two strings together like this string1 + string2.
+
+let union = (string1, string2) => {
+    return string1 + string2
+}

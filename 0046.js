@@ -41,3 +41,5 @@ const stringToNumber = function(str) {
     }
     
   };
+
+  

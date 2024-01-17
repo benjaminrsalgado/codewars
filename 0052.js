@@ -14,6 +14,6 @@ You Can't count under pressure #1
 
 function doubleInteger(i) {
     // i will be an integer. Double it and return it.
-    
-    return i;
+    let double = i * 2; // ya que i va a ser multiplicado por 2 
+    return double;
 }

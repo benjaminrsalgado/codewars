@@ -1,12 +1,13 @@
 /*
-You ask a small girl,"How old are you?" She always says, "x years old", where x is a random number between 0 and 9.
+Convert number to reversed array of digits
 
-Write a program that returns the girl's age (0-9) as an integer.
+Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
 
-Assume the test input string is always a valid string. For example, the test input may be "1 year old" or "5 years old". The first character in the string is always a number.
+35231 => [1,3,2,5,3]
+0 => [0]
 */
+function digitize(n) {
+    //code here
+    return Math.abs(n).toString().split('').reverse()
+  }
 
-function getAge(inputString){
-    // return the girl's correct age as an integer. Happy coding :) 
-    
-    }

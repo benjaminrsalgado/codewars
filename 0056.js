@@ -1,12 +1,12 @@
-document.querySelector(button).addEventListener('click', checkAge)
+document.querySelector('#boton').addEventListener('click', checkAge)
 
 function checkAge(){
-    let age = Number (document.querySelector('input').value)
+    let age = Number (document.querySelector('input').value);
     if(age < 18){
-        console.log("pulsera rojo")
+        console.log("pulsera rojo");
     }else if(age  < 21){
-        console.log("pulsera amarilla")
+        console.log("pulsera amarilla");
     }else{
-        console.log("pulsera verde")
+        console.log("pulsera verde");
     }
 }

@@ -1,11 +1,11 @@
-document.querySelectorAll('li')addEvenetListener('click',change)
+document.querySelectorAll('li').addEvenetListener('click',change)
 
-Function change(){
+function change(){
     this.Style.background = 'red'
 }
 
 
-document.querySelector('#button')addEventListener('click',web)
+document.querySelector('#button').addEventListener('click',web)
 
 function web(){
     let nombre = document.querySelector('#nombre').value
